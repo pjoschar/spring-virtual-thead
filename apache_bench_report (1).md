@@ -3,6 +3,23 @@
 
 This report compares three different endpoints using ApacheBench (`ab`) to evaluate throughput, latency, and overall performance.
 
+YouTube / Java Techie (en anglais) :
+https://youtu.be/DZIC_Jrrg4U?si=EaKODQNT_FI-DAKY
+
+Swagger UI :
+http://localhost:9191/swagger-ui/index.html
+
+Download Apache - Et dans les sources on a Bench (ab) :
+https://www.apachelounge.com/download/
+
+Vidéo installation Apache + Mise en place Apache Workbench :
+https://youtu.be/hUZso9TpEes?si=kqBwlKgD1vEdDI44
+
+Ligne de commande ab / Apache Workbench :
+pjosc>ab -n 400 -c 200 -m POST http://localhost:9191/reports/europe
+pjosc>ab -n 400 -c 200 -m POST http://localhost:9191/reports/platform/europe
+pjosc>ab -n 400 -c 200 -m POST http://localhost:9191/reports/virtual/europe
+
 ---
 
 ## 🔹 `/reports/US` — Traditional (Baseline)
